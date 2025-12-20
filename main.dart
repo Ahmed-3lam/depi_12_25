@@ -1,23 +1,13 @@
-import 'animal.dart';
-import 'base_printer.dart';
-import 'state.dart';
-
 void main() {
-  connectPrinter(BluetoothPrinter());
-  connectPrinter(WifiPrinter());
+  var dataFromApi= 10;
+
 }
 
-void connectPrinter(BasePrinter printer) {
-  printer.connect();
+void printMyName(){
+
 }
 
-void lionEating(Lion lion) {
-  lion.eat1();
-}
 
-void birdsEating(Birds bird) {
-  bird.eat1();
-}
 
 /// ------------- OOP -------------- ///
 /// (1) - Encapsulation:
